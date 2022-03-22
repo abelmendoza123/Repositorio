@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Praise&display=swap');
+
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+nav {
+    background-color: rgb(247, 228, 224);
+
+
+
+}
+
+nav ul {
+
+    list-style: none;
+
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    font-size: 2rem;
+
+    margin-right: 100px;
+    margin-top: -30px;
+    height: 30px;
+    vertical-align: middle;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    color: rgb(97, 65, 52);
+
+}
+
+body {
+    background-color: rgb(247, 228, 224);
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(97, 65, 52);
+    font-family: 'Praise', cursive;
+}
+
+.figureborder {
+    background-color: #212121;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+
+.contenedor figure {
+    background-color: #d4b393;
+    padding: 2%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.textcenter {
+    text-align: center;
+}
+
+.bglight {
+    background-color: rgb(247, 228, 224);
+}
+
+.main {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    margin: 10px auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    border: solid 2px rgb(133, 104, 61);
+}
+
+.encabezado nav {
+    background-color: rgb(247, 228, 224);
+    position: sticky;
+    top: 10px;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.contenedor {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+/*conteiner grid index*/
+
+.conteinerGrid {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "nav nav nav"
+        "main main main "
+        "footer footer footer";
+
+}
+
+#mainNav {
+    grid-area: nav;
+}
+
+#main {
+    grid-area: main;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+/*conteiner grid ofertas*/
+
+.conteinerGridofertas {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "mainavof mainavof mainavof"
+        "mainof mainof mainof "
+        "footerOf footerOf footerOf";
+
+}
+
+#mainNavof {
+    grid-area: mainavof;
+}
+
+#mainOf {
+    grid-area: mainof;
+}
+
+#footerOf {
+    grid-area: footerOf;
+}
+
+
+
+
+.figure img {
+    width: 300px;
+    height: auto;
+}
+
+.person {
+    width: 500px;
+    height: auto;
+
+}
+
+.fotodeabel {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.fotodeabel img {
+    width: 300px;
+    height: auto;
+}
+
+.fotodeabeltext {
+    margin: 4rem;
+    width: 50%;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado nav ul li a:hover {
+    font-weight: 800;
+    color: rgb(44, 30, 24);
+}
+
+.footer {
+    font-size: 2rem;
+}
+
+.pie a {
+    text-decoration: none;
+}
+
+
+i.displaynone {
+    display: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.tablemini {
+    display: none;
+}
+
+/*media*/
+
+@media (max-width: 290px) and (min-width: 160px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    main img {
+        display: none;
+    }
+
+    .imgicon {
+        width: 100px;
+        margin-right: 35px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .displaycontact {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.9rem;
+    }
+
+    .titulo {
+        font-size: 1.74rem;
+    }
+
+    .tablemini {
+        display: inline;
+    }
+
+
+    .fotodeabeltext {
+        width: 100%;
+        margin: 0;
+    }
+
+    .tableofer {
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .navhambur {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parrafo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .textcenter {
+        font-size: 30px;
+    }
+
+    nav ul {
+
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        margin-top: 0;
+
+    }
+
+    .encabezado nav {
+        background-color: rgb(247, 228, 224);
+        position: sticky;
+        top: 10px;
+        width: 100vw;
+        padding: 0;
+    }
+
+    textarea {
+        width: 80vw;
+    }
+
+    iframe {
+        width: 25vh;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 291px) {
+    main img {
+        display: none;
+    }
+
+    .imgicon {
+        width: 100px;
+        margin-right: 35px;
+    }
+
+
+    .fotodeabeltext {
+        width: 100%;
+        margin: 0;
+    }
+
+    .navhambur {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tablemini {
+        display: none;
+    }
+
+
+    .parrafo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .textcenter {
+        font-size: 30px;
+    }
+
+    nav ul {
+
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-top: 0;
+
+    }
+
+    .encabezado nav {
+        background-color: rgb(247, 228, 224);
+        position: sticky;
+        top: 10px;
+        width: 100vw;
+        padding: 0;
+    }
+
+    iframe {
+        width: 80vw;
+    }
+
+
+}
+
+@media (max-width: 912px) and (min-width: 769px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .imgicon {
+        margin-right: 3em;
+    }
+
+    .fotodeabeltext {
+        width: 100%;
+        margin: 0;
+    }
+
+
+
+    .navhambur {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    nav ul li {
+        margin-top: 0;
+
+    }
+
+    .encabezado nav {
+        padding: 10px 10px;
+    }
+}
