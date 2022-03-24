@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leon Pinturas</title>
     <link rel="stylesheet" href="../css/style.css">
+    <!--Libreria de Animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
     <header class="encabezado">
         <nav class="navhambur">
             <a href="../index.html">
-                <img class="imgicon" src="../img/logo.png" alt="logo de leon "></a>
+                <img class="imgicon wow animate__fadeIn" src="../img/logo.png" alt="logo de leon "></a>
 
             <ul>
                 <li><a href="../html/nosotros.html">Nosotros</a></li>
@@ -34,7 +36,7 @@
                 <article>
                     <h1 class="titulo">Contactanos a Leon Pinturas</h1>
                     <form action="envio.php" method="post" id="contactos">
-                        <fieldset>
+                        <fieldset class="wow animate__fadeIn">
                             <legend>Datos Personales</legend>
                             <label for="nombre">Nombre y Apellido</label>
                             <input type="text" placeholder="Abel Nazareno Mendoza" name="nombre" id="nombre">
@@ -46,7 +48,7 @@
                             <input type="fecha" placeholder="14 de Julio de 1998" name="fecha" id="fecha">
 
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="wow animate__fadeIn">
                             <legend>Pedido</legend>
                             <label for="pintura">Pintura</label>
                             <input type="checkbox" name="pintura" id="pintura" value="pintura">
@@ -54,7 +56,7 @@
                             <label for="escultura">Escultura</label>
                             <input type="checkbox" name="escultura" id="escultura" value="escultura">
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="wow animate__fadeIn">
                             <legend>Informacion de Envio</legend>
                             <label for="envio">Retiro en Local</label>
                             <input type="radio" name="envio" id="local" value="local">
@@ -69,8 +71,8 @@
                             </select>
                         </fieldset>
                         <br>
-                        <label for="mensaje">Dejanos tu Mensaje</label><br>
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        <label class="wow animate__fadeIn" for="mensaje">Dejanos tu Mensaje</label><br>
+                        <textarea class="wow animate__fadeIn" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                         <br><br>
                         <input type="reset" value="Cancelar">
                         <input type="submit" value="Enviar">
@@ -81,7 +83,7 @@
                     </form>
                     <br><br>
                 </article>
-                <article>
+                <article class="wow animate__zoomIn">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621.182606608254!2d-105.9809182200749!3d35.64337262214489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87185a72eddee22b%3A0x1e16bfb9049f6ef!2s2347%20Camino%20Pintores%2C%20Santa%20Fe%2C%20NM%2087505%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1645568264738!5m2!1ses!2sar"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -100,6 +102,10 @@
             </a>
         </div>
     </footer>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 
 </body>
