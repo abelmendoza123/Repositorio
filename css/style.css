@@ -128,6 +128,7 @@ h3 {
 #footer {
     grid-area: footer;
 }
+/*end conteiner grid index*/
 
 /*conteiner grid ofertas*/
 
@@ -153,6 +154,8 @@ h3 {
 #footerOf {
     grid-area: footerOf;
 }
+
+/*end conteiner grid ofertas*/
 
 
 
@@ -223,6 +226,33 @@ html {
 .tablemini {
     display: none;
 }
+
+/*animaciones*/
+.animate__fadeInUp{
+    animation-duration:2s;
+}
+
+.animate__fadeIn{
+    animation-duration:2s;
+}
+
+.animate__fadeInRight{
+    animation-duration:2s;
+}
+
+.animate__fadeInLeft{
+    animation-duration:2s;
+}
+
+.animate__fadeInDown{
+    animation-duration:2s;
+}
+
+.animate__zoomIn{
+    animation-duration:2s;
+}
+
+/*end animaciones*/
 
 /*media*/
 
@@ -427,3 +457,4 @@ html {
         padding: 10px 10px;
     }
 }
+/*end media*/

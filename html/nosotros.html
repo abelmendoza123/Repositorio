@@ -7,17 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leon Pinturas</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
- <script src="https://kit.fontawesome.com/9177750629.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/9177750629.js" crossorigin="anonymous"></script>
+    <!--Libreria de Animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
     <header class="encabezado">
         <nav class="navhambur">
             <a href="../index.html">
-                <img class="imgicon
+                <img class="imgicon wow animate__fadeIn
                 " src="../img/logo.png" alt="logo de leon "></a>
-                
+
             <ul>
                 <li><a href="../html/nosotros.html">Nosotros</a></li>
                 <li><a href="../html/ofertas.html"> Ofertas</a></li>
@@ -33,10 +37,10 @@
         <img src="../img/header.jpg" alt="Leon Pinturas Originales" width="100%">
         <section class="main">
             <h1 class="textcenter">Acerca de Nosotros</h1>
-            <h2>Abel</h2>
+            <h2 class="wow animate__fadeIn">Abel</h2>
             <article class="fotodeabel">
                 <img src="../img nosotros/person (1).jpg" alt="Abel">
-                <p class="fotodeabeltext">
+                <p class="fotodeabeltext wow animate__fadeInDown">
                     lorem ipsum dolor sit amet lorem, consectetur adipisicing elit lorem ipsum dolor sit am lorem lorem.
                     Cum lorem ips Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci reiciendis
                     veniam ea sed, deleniti sunt a corporis, optio eveniet consequuntur. Non dolore laboriosam possimus
@@ -45,10 +49,10 @@
                 </p>
             </article>
 
-            <h2>Rowena</h2>
+            <h2 class="wow animate__fadeIn">Rowena</h2>
             <article class="fotodeabel">
                 <img src="../img nosotros/person (2).jpg" alt="Rowena">
-                <p class="fotodeabeltext">
+                <p class="fotodeabeltext wow animate__fadeInDown">
                     lorem ipsum dolor sit amet lorem, consectetur adipisicing elit lorem ipsum dolor sit am lorem lorem.
                     Cum lorem ips Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci reiciendis
                     veniam ea sed, deleniti sunt a corporis, optio eveniet consequuntur. Non dolore laboriosam possimus
@@ -57,10 +61,10 @@
                 </p>
             </article>
 
-            <h2>Dumas</h2>
+            <h2 class="wow animate__fadeIn">Dumas</h2>
             <article class="fotodeabel">
                 <img src="../img nosotros/person (3).jpg" alt="Dumas">
-                <p class="fotodeabeltext">
+                <p class="fotodeabeltext wow animate__fadeInDown">
                     lorem ipsum dolor sit amet lorem, consectetur adipisicing elit lorem ipsum dolor sit am lorem lorem.
                     Cum lorem ips Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci reiciendis
                     veniam ea sed, deleniti sunt a corporis, optio eveniet consequuntur. Non dolore laboriosam possimus
@@ -69,10 +73,10 @@
                 </p>
             </article>
 
-            <h2>Twain</h2>
+            <h2 class="wow animate__fadeIn">Twain</h2>
             <article class="fotodeabel">
                 <img src="../img nosotros/person (4).jpg" alt="Twain">
-                <p class="fotodeabeltext">
+                <p class="fotodeabeltext wow animate__fadeInDown">
                     lorem ipsum dolor sit amet lorem, consectetur adipisicing elit lorem ipsum dolor sit am lorem lorem.
                     Cum lorem ips Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci reiciendis
                     veniam ea sed, deleniti sunt a corporis, optio eveniet consequuntur. Non dolore laboriosam possimus
@@ -95,7 +99,10 @@
             </a>
         </div>
     </footer>
-
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 
