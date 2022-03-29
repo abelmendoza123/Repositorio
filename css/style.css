@@ -16,7 +16,7 @@ nav {
 
 }
 
-nav ul {
+/*nav ul {
 
     list-style: none;
 
@@ -33,6 +33,9 @@ nav ul li {
     height: 30px;
     vertical-align: middle;
 
+}*/
+header#mainNav .carousel-inner img{
+    height:600px;
 }
 
 nav ul li a {
@@ -43,7 +46,7 @@ nav ul li a {
 }
 
 body {
-    background-color: rgb(247, 228, 224);
+    background-color: rgb(247, 228, 224) !important;
 }
 
 h1,
@@ -68,9 +71,9 @@ h3 {
 }
 
 
-.textcenter {
+/*.textcenter {
     text-align: center;
-}
+}*/
 
 .bglight {
     background-color: rgb(247, 228, 224);
@@ -89,7 +92,7 @@ h3 {
 .encabezado nav {
     background-color: rgb(247, 228, 224);
     position: sticky;
-    top: 10px;
+    
     padding: 10px 30px;
     width: 100%;
 }
@@ -104,7 +107,7 @@ h3 {
 
 }
 
-/*conteiner grid index*/
+/*conteiner grid index/
 
 .conteinerGrid {
     display: grid;
@@ -130,7 +133,7 @@ h3 {
 }
 /*end conteiner grid index*/
 
-/*conteiner grid ofertas*/
+/*conteiner grid ofertas/
 
 .conteinerGridofertas {
     display: grid;
@@ -159,7 +162,9 @@ h3 {
 
 
 
-
+.borde{
+    border: 1px solid rgb(170, 133, 126);
+}
 .figure img {
     width: 300px;
     height: auto;
@@ -252,6 +257,10 @@ html {
     animation-duration:2s;
 }
 
+.accordion-button:not(.collapsed) {
+    color: #c99b1b9e !important;
+    background-color: #85683d !important;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 /*end animaciones*/
 
 /*media*/
@@ -268,6 +277,10 @@ html {
     .imgicon {
         width: 100px;
         margin-right: 35px;
+    }
+
+    header#mainNav .carousel-inner img {
+        height: 200px;
     }
 
     .menu {
@@ -343,9 +356,11 @@ html {
     .encabezado nav {
         background-color: rgb(247, 228, 224);
         position: sticky;
-        top: 10px;
+        top: 0px;
         width: 100vw;
         padding: 0;
+        padding-bottom: 10px;
+}
     }
 
     textarea {
@@ -396,11 +411,11 @@ html {
         font-size: 30px;
     }
 
-    nav ul {
+    /*nav ul {
 
         flex-direction: column;
     }
-
+*/
     nav ul li {
         margin-top: 0;
 
@@ -417,6 +432,9 @@ html {
     iframe {
         width: 80vw;
     }
+
+   nav li a {
+        font-size: 15px !important;
 
 
 }
