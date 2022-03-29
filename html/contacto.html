@@ -53,8 +53,8 @@
 <!--ends nav-->
 
     </header>
-    <main>
-        <img src="../img/header.jpg" alt="Leon Pinturas Originales" width="100%">
+    <main class="d-flex flex-column justify-content-center justify-items-center container-fluid align-items-center flex-wrap">
+        <!--<img src="../img/header.jpg" alt="Leon Pinturas Originales" width="100%">
         <section>
             <div class="main displaycontact">
                 <article>
@@ -106,7 +106,51 @@
 
                     </form>
                     <br><br>
-                </article>
+                </article>-->
+                <form>
+                    <h1 class="text-center text-uppercase text-secundary py-3">Contactanos</h1>
+                    <div class="mb-3 wow animate__fadeIn">
+                      <label for="exampleInputEmail1" class="form-label fs-1">Correo Electronico</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text fs-3">No compartas el correo con nadie.</div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                              <label for="inputPassword6" class="col-form-label fs-1 wow animate__fadeIn">Contraseña</label>
+                            </div>
+                            <div class="col-auto wow animate__fadeIn">
+                              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                              <span id="passwordHelpInline" class="form-text fs-3 wow animate__fadeIn">
+                                Maximo de 20 palabras.
+                              </span>
+                            </div>
+                          </div>
+                          <label class="wow animate__fadeIn fs-1" for="mensaje">Dejanos tu Mensaje</label><br>
+                        <textarea class="wow animate__fadeIn" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <div class="mb-3 form-check">
+                        <fieldset class="wow animate__fadeIn fs-3">
+                            <legend class="fs-1">Informacion de Envio</legend>
+                            <label for="envio">Retiro en Local</label>
+                            <input type="radio" name="envio" id="local" value="local">
+                            <br>
+                            <label for="domicilio">Envio a Domicilio</label>
+                            <input type="radio" name="envio" id="domicilio" value="domicilio">
+                            <br>
+                            <select name="localidad" id="localidad">
+                                <option value="capital">Santa fe Capital</option>
+                                <option value="aleyes">Arroyo Leyes</option>
+                                <option value="interior">Interior del Pais</option>
+                            </select>
+                        </fieldset>
+                      <input type="checkbox" class="form-check-input wow animate__fadeIn" id="exampleCheck1">
+                      <label class="form-check-label fs-3 wow animate__fadeIn" for="exampleCheck1">Verificar</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary fs-1 wow animate__fadeIn mb-3">Enviar</button>
+                  </form>
+                
                 <article class="wow animate__zoomIn">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1621.182606608254!2d-105.9809182200749!3d35.64337262214489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87185a72eddee22b%3A0x1e16bfb9049f6ef!2s2347%20Camino%20Pintores%2C%20Santa%20Fe%2C%20NM%2087505%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1645568264738!5m2!1ses!2sar"
