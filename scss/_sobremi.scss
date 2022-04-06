@@ -1,0 +1,19 @@
+.fotodeabel {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    img {
+        width: 300px;
+        height: auto;
+    }
+}
+.fotodeabeltext {
+    margin: 4rem;
+    width: 50%;
+}
+
+

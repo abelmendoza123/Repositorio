@@ -1,2 +1,3 @@
 *.pdf
 *.ai
+*node_modules

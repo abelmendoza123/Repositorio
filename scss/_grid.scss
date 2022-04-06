@@ -1,0 +1,52 @@
+/*conteiner grid index/*/
+
+.conteinerGrid {
+    display: grid;
+   grid-template-columns: 20% 70% 10%;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "nav nav nav"
+        "main main main "
+        "footer footer footer";
+
+}
+
+#mainNav {
+    grid-area: nav;
+}
+
+#main {
+    grid-area: main;
+}
+
+#footer {
+    grid-area: footer;
+}
+/*end conteiner grid index*/
+
+/*conteiner grid ofertas*/
+
+.conteinerGridofertas {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "mainavof mainavof mainavof"
+        "mainof mainof mainof "
+        "footerOf footerOf footerOf";
+
+}
+
+#mainNavof {
+    grid-area: mainavof;
+}
+
+#mainOf {
+    grid-area: mainof;
+}
+
+#footerOf {
+    grid-area: footerOf;
+}
+
+/*end conteiner grid ofertas*/
