@@ -1,5 +1,6 @@
 .figureborder {
-    background-color: #212121;
+    //background-color: #212121;
+    background-color:map-get($map:$colors , $key:"BgFigure" ) ;
     padding: 2%;
     text-align: center;
     color: white;
@@ -8,7 +9,8 @@
 .contenedor {
     figure {
         background-color: #d4b393;
-        padding: 2%;
+       // padding: 2%;
+        @include padding(2%);
         text-align: center;
         color: rgb(255, 255, 255);
     }
@@ -20,3 +22,4 @@
         height: auto;
     }
 }
+
