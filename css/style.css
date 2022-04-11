@@ -14,22 +14,7 @@ i.displaynone {
 html {
   overflow-x: hidden; }
 
-.animate__fadeInUp {
-  animation-duration: 2s; }
-
-.animate__fadeIn {
-  animation-duration: 2s; }
-
-.animate__fadeInRight {
-  animation-duration: 2s; }
-
-.animate__fadeInLeft {
-  animation-duration: 2s; }
-
-.animate__fadeInDown {
-  animation-duration: 2s; }
-
-.animate__zoomIn {
+.animate__fadeInUp, .animate__fadeIn, .animate__fadeInRight, .animate__fadeInLeft, .animate__fadeInDown, .animate__zoomIn {
   animation-duration: 2s; }
 
 .bglight {
@@ -39,7 +24,7 @@ body {
   background-color: #f7e4e0 !important; }
 
 nav {
-  background-color: #f7e4e0; }
+  color: #f7e4e0; }
 
 header#mainNav .carousel-inner img {
   height: 600px; }

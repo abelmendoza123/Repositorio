@@ -7,3 +7,19 @@ i.displaynone {
 html {
     overflow-x: hidden;
 }
+
+@mixin padding ($padding){
+    padding: $padding;
+}
+
+@mixin paddingmain ($padding , $padding2) {
+    padding:$padding $padding2;
+    
+}
+
+$colors: (
+    "BgFigure":#212121,
+    "ColorText":rgb(97, 65, 52),
+    "BgNav":rgb(247, 228, 224),
+
+);

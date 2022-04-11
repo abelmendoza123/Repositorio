@@ -3,21 +3,26 @@
 }
 
 .animate__fadeIn {
-    animation-duration: 2s;
+    //animation-duration: 2s;
+    @extend .animate__fadeInUp ;
 }
 
 .animate__fadeInRight {
-    animation-duration: 2s;
+    //animation-duration: 2s;
+    @extend .animate__fadeInUp ;
 }
 
 .animate__fadeInLeft {
-    animation-duration: 2s;
+    //animation-duration: 2s;
+    @extend .animate__fadeInUp ;
 }
 
 .animate__fadeInDown {
-    animation-duration: 2s;
+    //animation-duration: 2s;
+    @extend .animate__fadeInUp ;
 }
 
 .animate__zoomIn {
-    animation-duration: 2s;
+    //animation-duration: 2s;
+    @extend .animate__fadeInUp ;
 }
