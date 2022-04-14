@@ -1,7 +1,7 @@
 h1,
 h2,
 h3 {
-    //color: rgb(97, 65, 52);
+    
     color:map-get($map:$colors , $key:"ColorText" );
     font-family: 'Praise', cursive;
 }
