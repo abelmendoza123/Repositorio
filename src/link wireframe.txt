@@ -1,5 +1,6 @@
 Desktop
 
+page404   https://wireframe.cc/6nu7vw
 index     https://wireframe.cc/uWgtXv
 contacto  https://wireframe.cc/gbpvNe
 ofertas   https://wireframe.cc/kK6MPJ
@@ -9,6 +10,7 @@ sobre mi  https://wireframe.cc/HzGpRQ
 
 Mobile
 
+page404   https://wireframe.cc/MQlASk
 index     https://wireframe.cc/CBndnC
 nosotros  https://wireframe.cc/7UFQW6
 ofertas   https://wireframe.cc/AaWLcp

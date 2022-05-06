@@ -1,6 +1,19 @@
 .bglight {
     background-color: rgb(247, 228, 224);
 }
+.bgdark {
+    background-color: rgb(190, 160, 154);
+}
+
+.colored{
+    color: rgb(219, 145, 84);
+    text-shadow: 3px 3px black;
+    font-size: 7vw;
+}
 body {
     background-color: rgb(247, 228, 224) !important;
+}
+.btn-edit {
+    background-color:rgb(247, 228, 224);
+    color: rgba(202, 109, 72, 0.877);
 }
