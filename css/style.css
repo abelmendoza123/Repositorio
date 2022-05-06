@@ -14,14 +14,57 @@ i.displaynone {
 html {
   overflow-x: hidden; }
 
+.BgImage {
+  background-image: url(https://c.tenor.com/2slseEsQhzgAAAAd/philosophy-academy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+.font {
+  font-size: 25px !important; }
+
+.heighte {
+  height: 700px; }
+
+.btn-edit {
+  background-color: #f7e4e0;
+  color: rgba(202, 109, 72, 0.877);
+  border-radius: 3%; }
+
+a [class="centerb  btn-edit"] div button {
+  font-size: 20px !important; }
+
+.centerb {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; }
+
+.overflowy {
+  overflow-y: hidden; }
+
 .animate__fadeInUp, .animate__fadeIn, .animate__fadeInRight, .animate__fadeInLeft, .animate__fadeInDown, .animate__zoomIn {
   animation-duration: 2s; }
 
 .bglight {
   background-color: #f7e4e0; }
 
+.bgdark {
+  background-color: #bea09a; }
+
+.colored {
+  color: #db9154;
+  text-shadow: 3px 3px black;
+  font-size: 7vw; }
+
 body {
   background-color: #f7e4e0 !important; }
+
+.btn-edit {
+  background-color: #f7e4e0;
+  color: rgba(202, 109, 72, 0.877); }
 
 nav {
   color: #f7e4e0; }

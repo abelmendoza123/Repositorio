@@ -8,6 +8,49 @@ html {
     overflow-x: hidden;
 }
 
+.BgImage{
+background-image: url(https://c.tenor.com/2slseEsQhzgAAAAd/philosophy-academy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.font {
+    font-size:25px !important;
+}
+
+.heighte {
+    height:700px;
+}
+
+.btn-edit {
+    background-color: #f7e4e0;
+    color: rgba(202, 109, 72, 0.877);
+    border-radius: 3%;
+}
+
+a [class="centerb  btn-edit" ]  {
+    div {
+        button {
+            font-size:20px !important; 
+        }
+    }
+}
+
+.centerb {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.overflowy {
+    overflow-y: hidden;
+}
+
+
 @mixin padding ($padding){
     padding: $padding;
 }
@@ -23,3 +66,5 @@ $colors: (
     "BgNav":rgb(247, 228, 224),
 
 );
+
+
